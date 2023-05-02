@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Eastwise Design',
+  title: 'Beachside Design',
   description: 'Static Sites Made Easy',
 }
 
