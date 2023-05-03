@@ -1,4 +1,5 @@
 import React from 'react';
+import Feature from './Feature.js';
 
 const Offerings = () => {
 	return (
@@ -14,7 +15,13 @@ const Offerings = () => {
 						We offer fast, responsive websites built from scratch for your business.
 					</p>
 				</div>
-				<p>Yo</p>
+			</div>
+			<div className='w-3/4 mx-auto flex flex-row justify-evenly flex-wrap'>
+				<Feature></Feature>
+				<Feature></Feature>
+				<Feature></Feature>
+				<Feature></Feature>
+				<Feature></Feature>
 			</div>
 		</>
 	);
