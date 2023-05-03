@@ -11,6 +11,8 @@ module.exports = {
       'secondary': '#222831',
       'primary': '#00ADB5',
       'text': '#EEEEEE',
+      'textSecondary': '#d9d9d9',
+      'white': 'white'
     },
     extend: {
 
