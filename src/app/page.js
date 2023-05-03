@@ -1,7 +1,7 @@
-import Hero from "./components/Hero"
-import Examples from "./components/Examples"
-import About from "./components/About"
-import Offerings from "./components/Offerings"
+import Hero from './components/Hero';
+import Examples from './components/Examples';
+import About from './components/About';
+import Offerings from './components/Offerings';
 
 export default function Home() {
   return (
@@ -11,5 +11,5 @@ export default function Home() {
       <Examples></Examples>
       <About></About>
     </main>
-  )
+  );
 }

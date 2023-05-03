@@ -1,5 +1,5 @@
-import React from 'react'
-import Card from './Card'
+import React from 'react';
+import Card from './Card';
 
 const Examples = () => {
 	return (
@@ -11,7 +11,7 @@ const Examples = () => {
 				<Card src="/pokedex.JPG" alt="Pokedex Site" title="Pokedex Site" description="Site uses the Pokemon API to display information on different pokemon."></Card>
 			</div>
 		</div>
-	)
-}
+	);
+};
 
-export default Examples
+export default Examples;

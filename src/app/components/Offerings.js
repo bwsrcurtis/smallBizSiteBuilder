@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Offerings = () => {
 	return (
@@ -15,7 +15,7 @@ const Offerings = () => {
 				<p>Yo</p>
 			</div>
 		</>
-	)
-}
+	);
+};
 
-export default Offerings
+export default Offerings;
