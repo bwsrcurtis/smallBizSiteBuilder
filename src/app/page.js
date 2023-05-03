@@ -5,7 +5,7 @@ import Offerings from "./components/Offerings"
 
 export default function Home() {
   return (
-    <main className="bg-background">
+    <main className="bg-secondary">
       <Hero></Hero>
       <Offerings></Offerings>
       <Examples></Examples>

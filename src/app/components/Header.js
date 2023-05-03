@@ -11,7 +11,7 @@ const Header = () => {
 			</Link>
 			<div className='space-x-10 hidden md:inline text-lg'>
 				<Link href='#offerings' className="hover:underline">What We Offer</Link>
-				<Link href='#work' className="hover:underline">Our Work</Link>
+				<Link href='#work' className="hover:underline">Templates</Link>
 				<Link href='#aboutus' className="hover:underline">Who We Are</Link>
 
 				<button className='w-30 z-10 hover:bg-background bg-secondary p-2 rounded-lg'>
