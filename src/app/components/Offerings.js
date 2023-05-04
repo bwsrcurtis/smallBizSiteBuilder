@@ -1,14 +1,14 @@
 import React from 'react';
 import Feature from './Feature.js';
-import { FaBuromobelexperte, FaSearch } from 'react-icons/fa';
-import { BsPhone, BsLightningCharge } from 'react-icons/bs';
+import { FaBuromobelexperte } from 'react-icons/fa';
+import { BsPhone, BsLightningCharge, BsSearch } from 'react-icons/bs';
 import { FiTool } from 'react-icons/fi';
 
 const Offerings = () => {
 	return (
 		<>
 			<div className='flex w-5/6 mt-4 mx-auto pt-6 pb-12 justify-between'>
-				<div className='text-center text-text mx-auto w-[36rem]'>
+				<div className='text-center text-text mx-auto w-[38rem]'>
 					<p id='offerings' className='text-5xl mb-4'>
 						<span className='text-primary'>What </span>
 						We Offer</p>
@@ -28,7 +28,7 @@ const Offerings = () => {
 				<Feature
 					title="SEO"
 					description="Improve Your Google Rankings With Keywords"
-					Icon={<FaSearch />}>
+					Icon={<BsSearch />}>
 				</Feature>
 				<Feature
 					title="Responsive Design"
@@ -37,7 +37,7 @@ const Offerings = () => {
 				</Feature>
 				<Feature
 					title="Blazing Speed"
-					description="Your Site Will Load Quickly Without Including Costly Plugins"
+					description="Your Site Will Load Quickly Without Costly Plugins"
 					Icon={<BsLightningCharge />}>
 				</Feature>
 				<Feature
