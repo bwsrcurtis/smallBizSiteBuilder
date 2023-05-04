@@ -8,9 +8,13 @@ const Form = () => {
         className='mx-auto w-[32rem]'
         action='/success'
         method='POST'
-        data-netlify='true'>
-        <input type='hidden' name='contact' value='form'></input>
+        data-netlify='true'
+        data-netlify-honeypot='bot-field'>
+        <input type='hidden' name='form-name' value='contact'></input>
         <p className='mb-1 text-xl'>Your Name</p>
+        <p className='hidden'>
+          <input name="bot-field"></input>
+        </p>
         <input
           type='text'
           name='Name'
