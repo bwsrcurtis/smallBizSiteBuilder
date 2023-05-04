@@ -3,8 +3,13 @@ import React from 'react';
 const Form = () => {
   return (
     <>
-      <form className='mx-auto w-[32rem]' action='/success' method='POST' data-netlify='true'>
-        <input type='hidden' name='form-name' value='form'></input>
+      <form
+        name='contact'
+        className='mx-auto w-[32rem]'
+        action='/success'
+        method='POST'
+        data-netlify='true'>
+        <input type='hidden' name='contact' value='form'></input>
         <p className='mb-1 text-xl'>Your Name</p>
         <input
           type='text'
