@@ -12,18 +12,18 @@ const Header = () => {
 			</Link>
 			<nav className='space-x-10 text-lg'>
 				<a
-					href='#offerings'
+					href='/#offerings'
 					className="hover:underline hidden lg:inline">
 					What We Offer
 				</a>
-				<a href='#work' className="hover:underline hidden lg:inline">
+				<a href='/#work' className="hover:underline hidden lg:inline">
 					Templates
 				</a>
 
 				<button
 					className='w-30 z-10 hover:bg-background bg-secondary
 					p-2 rounded-lg hidden md:inline'>
-					<a href='#getstarted'>Build Now</a>
+					<a href='/#getstarted'>Build Now</a>
 				</button>
 
 			</nav>
