@@ -10,11 +10,15 @@ const Header = () => {
 				<h1 className='text-white text-3xl'>Beachside Design</h1>
 			</Link>
 			<div className='space-x-10 text-lg'>
-				<Link href='#offerings' className="hover:underline hidden lg:inline">What We Offer</Link>
-				<Link href='#work' className="hover:underline hidden lg:inline">Templates</Link>
+				<Link href='/#offerings' scroll={false} className="hover:underline hidden lg:inline">
+					What We Offer
+				</Link>
+				<Link href='/#work' className="hover:underline hidden lg:inline">
+					Templates
+				</Link>
 
 				<button className='w-30 z-10 hover:bg-background bg-secondary p-2 rounded-lg'>
-					<Link href='#getstarted'>Build Now</Link>
+					<Link href='/#getstarted' scroll={false}>Build Now</Link>
 				</button>
 
 			</div>
