@@ -9,19 +9,19 @@ const Header = () => {
 				<Image src='logo.svg' alt="logo" width={50} height={50} className=' fill-white'></Image>
 				<h1 className='text-white text-3xl'>Beachside Design</h1>
 			</Link>
-			<div className='space-x-10 text-lg'>
-				<Link href='/#offerings' scroll={false} className="hover:underline hidden lg:inline">
+			<nav className='space-x-10 text-lg'>
+				<a href='/#offerings' className="hover:underline hidden lg:inline">
 					What We Offer
-				</Link>
-				<Link href='/#work' className="hover:underline hidden lg:inline">
+				</a>
+				<a href='/#work' className="hover:underline hidden lg:inline">
 					Templates
-				</Link>
+				</a>
 
 				<button className='w-30 z-10 hover:bg-background bg-secondary p-2 rounded-lg'>
-					<Link href='/#getstarted' scroll={false}>Build Now</Link>
+					<a href='/#getstarted'>Build Now</a>
 				</button>
 
-			</div>
+			</nav>
 		</header>
 	);
 };
