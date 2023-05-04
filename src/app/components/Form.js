@@ -3,7 +3,7 @@ import React from 'react';
 const Form = () => {
   return (
     <>
-      <form className='mx-auto w-[32rem]'>
+      <form className='mx-auto w-[32rem]' method='POST' data-netlify='true'>
         <p className='mb-1 text-xl'>Your Name</p>
         <input
           type='text'
