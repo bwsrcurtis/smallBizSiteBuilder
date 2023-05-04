@@ -1,3 +1,3 @@
 ### Site to advertise my custom-built sites for small businesses
 
-![image](https://user-images.githubusercontent.com/44857032/235830538-28b319bc-0440-44fc-8390-7b3fcb53ca9f.png)
+![image](https://user-images.githubusercontent.com/44857032/236330013-297f5a32-aa8b-43b6-ae76-ce891c7590f7.png)
