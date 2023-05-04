@@ -12,7 +12,7 @@ const Feature = ({ title, description, Icon }) => {
         <div className='flex flex-col justify-between h-full'>
           <p className='text-2xl font-bold text-secondary mb-1'>{title}</p>
           <div className='h-16 w-full bg-background align-self-end rounded-b-2xl'>
-            <p className='self-center mt-1 px-2'>{description}</p>
+            <p className='self-center mt-1 bg-background'>{description}</p>
           </div>
         </div>
       </div>

@@ -7,9 +7,9 @@ import { FiTool } from 'react-icons/fi';
 const Offerings = () => {
 	return (
 		<>
-			<div className='flex w-5/6 mt-4 mx-auto pt-6 pb-12 justify-between'>
+			<div id='offerings' className='flex w-5/6 mt-6 mx-auto pt-6 pb-12 justify-between'>
 				<div className='text-center text-text mx-auto w-[38rem]'>
-					<p id='offerings' className='text-5xl mb-4'>
+					<p className='text-5xl mb-4'>
 						<span className='text-primary'>What </span>
 						We Offer</p>
 					<p className='text-lg text-textSecondary'>

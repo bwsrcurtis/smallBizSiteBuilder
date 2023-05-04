@@ -10,11 +10,11 @@ const Hero = () => {
 					priority src={Heroimage} fill={true} alt="Beach Image" className="filter saturate-[.35]">
 				</Image>
 			</div>
-			<div className='relative flex flex-col items-center justify-center h-[860px]'>
-				<h1 className='text-5xl font-bold md:text-7xl lg:text-8xl text-primary translate-y-[-117px]'>
+			<div className='relative flex flex-col items-center justify-center w-full h-[860px] mx-auto'>
+				<h1 className='text-5xl text-center font-bold md:text-7xl lg:text-8xl text-primary translate-y-[-117px]'>
 					Beachside Design
 				</h1>
-				<p className='text-xl md:text-4xl text-white translate-y-[-120px]'>
+				<p className='text-xl text-center md:text-4xl text-white translate-y-[-120px]'>
 					We Help Local Businesses Get Online
 				</p>
 			</div>
