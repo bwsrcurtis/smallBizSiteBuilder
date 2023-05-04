@@ -1,7 +1,7 @@
 import Hero from './components/Hero';
 import Examples from './components/Examples';
-import About from './components/About';
 import Offerings from './components/Offerings';
+import GetStarted from './components/GetStarted';
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Hero></Hero>
       <Offerings></Offerings>
       <Examples></Examples>
-      <About></About>
+      <GetStarted></GetStarted>
     </main>
   );
 }

@@ -11,7 +11,7 @@ const Hero = () => {
 				</Image>
 			</div>
 			<div className='relative flex flex-col items-center justify-center h-[860px]'>
-				<h1 className='text-5xl md:text-7xl lg:text-8xl text-primary translate-y-[-117px]'>
+				<h1 className='text-5xl font-bold md:text-7xl lg:text-8xl text-primary translate-y-[-117px]'>
 					Beachside Design
 				</h1>
 				<p className='text-xl md:text-4xl text-white translate-y-[-120px]'>
