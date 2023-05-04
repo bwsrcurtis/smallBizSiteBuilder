@@ -8,7 +8,7 @@ const Examples = () => {
 				<span className='text-primary'>Our </span>
 				Templates</p>
 			<div
-				className='lg:px-12 px-4 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3
+				className='lg:px-12 md:px-24 px-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3
 			w-full my-0 mx-auto gap-6 place-items-center'>
 				<Card
 					src="/photosite.JPG" alt="Photography Site" title="Photography Site"
