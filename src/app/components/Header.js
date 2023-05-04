@@ -6,7 +6,7 @@ const Header = () => {
 	return (
 		<header className='flex justify-between items-center px-12 py-1 relative bg-primary h-14'>
 			<Link href='/' className='flex items-center space-x-2'>
-				<Image src='logo.svg' alt="logo" width={50} height={50}></Image>
+				<Image src='logo.svg' alt="logo" width={50} height={50} className=' fill-white'></Image>
 				<h1 className='text-white text-3xl'>Beachside Design</h1>
 			</Link>
 			<div className='space-x-10 text-lg'>
