@@ -11,10 +11,18 @@ const Hero = () => {
 				</Image>
 			</div>
 			<div className='relative flex flex-col items-center justify-center w-full h-[860px] mx-auto'>
-				<h1 className='text-5xl text-center font-bold md:text-7xl lg:text-8xl text-primary translate-y-[-117px]'>
+				<h1 className='text-5xl text-center font-bold sm:text-7xl lg:text-8xl text-primary
+				translate-y-[-103px]
+				sm:translate-y-[-112px]
+				md:translate-y-[-106px]
+				lg:translate-y-[-112px]'>
 					Beachside Design
 				</h1>
-				<p className='text-xl text-center md:text-4xl text-white translate-y-[-120px]'>
+				<p className='text-xl text-center md:text-3xl lg:text-4xl text-white
+				translate-y-[-103px]
+				sm:translate-y-[-112px]
+				md:translate-y-[-106px]
+				lg:translate-y-[-112px]'>
 					We Help Local Businesses Get Online
 				</p>
 			</div>
