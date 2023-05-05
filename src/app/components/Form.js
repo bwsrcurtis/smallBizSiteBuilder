@@ -18,19 +18,20 @@ const Form = () => {
         <input
           type='text'
           name='Name'
-          placeholder='   Jane Smith'
-          className='w-full border-solid border-2
-          border-background mb-4 text-primary/75 placeholder:text-primary/75'></input>
+          placeholder='Jane Smith'
+          className='w-full border-solid border-2 text-lg px-2
+          border-background mb-4 text-primary placeholder:text-primary/75'></input>
         <p className='mb-1 text-xl'>Your Email</p>
         <input type='email'
           name='Email'
-          placeholder='   jane@example.com'
-          className='w-full border-solid border-2
-          border-background mb-4 text-primary/75 placeholder:text-primary/75'></input>
+          placeholder='jane@example.com'
+          className='w-full border-solid border-2 text-lg px-2
+          border-background mb-4 text-primary placeholder:text-primary/75'></input>
         <p className='mb-1 text-xl'>Message</p>
-        <input type='textarea' name='Message'
-          className='w-full h-48 border-solid border-2
-        border-background mb-4 text-primary/75 placeholder:text-primary/75'></input>
+        <textarea type='textarea' name='Message'
+          className='w-full h-48 border-solid border-2 resize-none text-lg px-2
+        border-background mb-4 text-primary placeholder:text-primary/75'
+          placeholder='Your Message'></textarea>
         <button type='submit' className='w-full bg-primary h-12 rounded-lg hover:bg-primary/50'>Submit</button>
       </form>
     </>
