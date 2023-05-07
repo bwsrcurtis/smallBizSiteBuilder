@@ -11,7 +11,7 @@ const Examples = () => {
 				className='px-6 flex justify-evenly flex-wrap
 			w-full my-0 mx-auto gap-8 place-items-center items-stretch'>
 				<Card
-					src="/portfolio.png" alt="Design Portfolio Template" title="Design Portfolio Template Template"
+					src="/portfolio.png" alt="Design Portfolio Template" title="Design Portfolio Template"
 					description="Site for designers to display their work.">
 				</Card>
 				<Card
