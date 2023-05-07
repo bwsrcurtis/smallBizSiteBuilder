@@ -22,14 +22,14 @@ const Examples = () => {
 					alt="Gardening Site"
 					title="Gardening Site"
 					description="Site that sends people reminders to care for their plants."
-					url=''>
+					url='https://planta-three.vercel.app/'>
 				</Card>
 				<Card
 					src="/pokedex.JPG"
 					alt="Pokedex Site"
 					title="Pokedex Site"
 					description="Site uses the Pokemon API to display information on different pokemon."
-					url=''>
+					url='https://pokedex-qtje.onrender.com/'>
 				</Card>
 			</div>
 		</div>
