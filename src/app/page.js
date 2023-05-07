@@ -5,7 +5,7 @@ import GetStarted from './components/GetStarted';
 
 export default function Home() {
   return (
-    <main className="bg-secondary min-h-[calc(100vh-112px)]">
+    <main className="bg-secondary min-h-[calc(100vh-112px)] leading-relaxed">
       <Hero></Hero>
       <Offerings></Offerings>
       <Examples></Examples>
