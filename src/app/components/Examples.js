@@ -11,16 +11,25 @@ const Examples = () => {
 				className='px-6 flex justify-evenly flex-wrap
 			w-full my-0 mx-auto gap-8 place-items-center items-stretch'>
 				<Card
-					src="/portfolio.png" alt="Design Portfolio Template" title="Design Portfolio Template"
-					description="Site for designers to display their work.">
+					src="/portfolio.png"
+					alt="Design Portfolio Template"
+					title="Design Portfolio Template"
+					description="Site for designers to display their work."
+					url='https://portfolio-template-static.netlify.app/'>
 				</Card>
 				<Card
-					src="/gardienne.JPG" alt="Gardening Site" title="Gardening Site"
-					description="Site that sends people reminders to care for their plants.">
+					src="/gardienne.JPG"
+					alt="Gardening Site"
+					title="Gardening Site"
+					description="Site that sends people reminders to care for their plants."
+					url=''>
 				</Card>
 				<Card
-					src="/pokedex.JPG" alt="Pokedex Site" title="Pokedex Site"
-					description="Site uses the Pokemon API to display information on different pokemon.">
+					src="/pokedex.JPG"
+					alt="Pokedex Site"
+					title="Pokedex Site"
+					description="Site uses the Pokemon API to display information on different pokemon."
+					url=''>
 				</Card>
 			</div>
 		</div>

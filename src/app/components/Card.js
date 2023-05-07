@@ -1,8 +1,9 @@
 'use client';
 import Image from 'next/image.js';
 import { useState } from 'react';
+import Link from 'next/link.js';
 
-const Card = ({ src, alt, title, description }) => {
+const Card = ({ src, alt, title, description, url }) => {
 	const [showModal, setShowModal] = useState(false);
 	return (
 		<>
@@ -18,7 +19,13 @@ const Card = ({ src, alt, title, description }) => {
 
 					</Image>
 					<div className='flex-col content-between justify-between'>
-						<p className='min-h-[6rem] text-left pl-2 pt-2 text-2xl w-full mb-2 text-primary'>{title}</p>
+						<Link href={url} >
+							<p
+								className='min-h-[6rem] text-left pl-2 pt-2 text-2xl w-full mb-2 text-primary
+							hover:underline'>
+								{title}
+							</p>
+						</Link>
 						<p className='pl-2 text-text w-full place-self-end'>{description}</p>
 					</div>
 				</div>
