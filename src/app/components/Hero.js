@@ -7,7 +7,8 @@ const Hero = () => {
 		<div className="relative w-screen h-[860px]">
 			<div className='-z-10 static'>
 				<Image
-					priority src={Heroimage} fill={true} alt="Beach Image" className="filter saturate-[.35]">
+					priority src={Heroimage} fill={true} alt="Beach Image"
+					className="filter saturate-[.35] xl:object-fill object-cover">
 				</Image>
 			</div>
 			<div className='relative flex flex-col items-center justify-center w-full h-[860px] mx-auto'>
