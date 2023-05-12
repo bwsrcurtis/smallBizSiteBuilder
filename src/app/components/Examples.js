@@ -18,10 +18,10 @@ const Examples = () => {
 					url='https://portfolio-template-static.netlify.app/'>
 				</Card>
 				<Card
-					src="/gardienne.JPG"
-					alt="Gardening Site"
-					title="Gardening Site"
-					description="Site that sends people reminders to care for their plants."
+					src="/bakery.png"
+					alt="Bakery/Restaurant Template"
+					title="Bakery/Restaurant Template"
+					description="Site for restaurants, bakeries, and coffee shops."
 					url='https://planta-three.vercel.app/'>
 				</Card>
 				<Card
