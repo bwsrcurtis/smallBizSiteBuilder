@@ -22,15 +22,15 @@ const Examples = () => {
 					alt="Bakery/Restaurant Template"
 					title="Bakery/Restaurant Template"
 					description="Site for restaurants, bakeries, and coffee shops."
-					url='https://planta-three.vercel.app/'>
+					url='https://chrisbakerytemplate.netlify.app/'>
 				</Card>
-				<Card
+				{/* <Card
 					src="/pokedex.JPG"
 					alt="Pokedex Site"
 					title="Pokedex Site"
 					description="Site uses the Pokemon API to display information on different pokemon."
 					url='https://pokedex-qtje.onrender.com/'>
-				</Card>
+				</Card> */}
 			</div>
 		</div>
 	);
