@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Feature = ({ title, description, Icon }) => {
   return (
     <>
