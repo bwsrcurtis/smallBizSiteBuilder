@@ -14,13 +14,14 @@ const Form = () => {
           <input name="bot-field"></input>
         </p>
         <input
+          required
           type='text'
           name='Name'
           placeholder='Jane Smith'
           className='w-full border-solid border-2 text-lg px-2
           border-background mb-4 text-primary placeholder:text-primary/75'></input>
         <p className='mb-1 text-xl'>Your Email</p>
-        <input type='email'
+        <input required type='email'
           name='Email'
           placeholder='jane@example.com'
           className='w-full border-solid border-2 text-lg px-2
