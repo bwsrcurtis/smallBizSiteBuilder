@@ -21,8 +21,8 @@ const Offerings = () => {
 			</div>
 			<div className='w-3/4 mx-auto flex flex-row justify-evenly flex-wrap'>
 				<Feature
-					title="Netlify CMS"
-					description="Freely Edit Your Own Site Content With Netlify CMS"
+					title="CMS"
+					description="Freely Edit Your Own Site Content"
 					Icon={<FaBuromobelexperte />}>
 				</Feature>
 				<Feature
